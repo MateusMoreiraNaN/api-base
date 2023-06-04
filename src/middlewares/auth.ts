@@ -1,7 +1,7 @@
 // middlewate vai decidir se algum vasi acessar uma rota/api ou não
 import { Request, Response, NextFunction } from "express"
 import { buffer } from "stream/consumers"
-import { Auth } from "../model/authModel"
+//import { Auth } from "../model/authModel"
 import JWT from 'jsonwebtoken'
 import dotenv from 'dotenv'
 import { decode } from "punycode"
